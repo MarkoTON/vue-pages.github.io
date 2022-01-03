@@ -14,3 +14,14 @@ export default {
   }
 }
 </script>
+
+<style>
+body {
+  margin: 0px;
+  background: red;
+}
+
+#one {
+  height: 20vh;
+}
+</style>

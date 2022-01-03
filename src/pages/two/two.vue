@@ -14,3 +14,9 @@ export default {
   }
 }
 </script>
+
+<style>
+#two {
+  background: gray;
+}
+</style>

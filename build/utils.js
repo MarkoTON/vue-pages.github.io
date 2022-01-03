@@ -129,7 +129,7 @@ exports.htmlPlugin  = function() {
     }
     if(process.env.NODE_ENV === 'production') {
       conf = merge(conf, {
-        chunks: ['manifest', 'vendor', filename],
+        // chunks: ['manifest', 'vendor', filename],
         minify: {
           removeComments: true,
           collapseWhitespace: true,
